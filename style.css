@@ -1,0 +1,29 @@
+body{
+    background-image: url("BG1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#start{
+    width: 45%;
+} 
+
+#camera{
+    width:360px;
+    height: 260px;
+    border: 2px dotted;
+    border-color: black;
+}
+
+#logo{
+    width: 150px;
+    border-radius: 10px;
+}
+
+#voice_output{
+    width: 300px;
+}
+
+

@@ -1,0 +1,38 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+
+<body>
+    <center>
+    <div class="container">
+        <a href="" id="download" download="MySelfie.png"></a>
+        <h1>AI SELFIE APP
+            <img id="logo" src="Me7.jfif">
+        </h1>
+        <hr>
+        <h2 style="color: rgba(241, 9, 9, 0.644);">As soon as you can see yourself, press <b>START</b> & say:</h2>
+        <h3><b>TAKE MY SELFIE</b></h3>
+        <textarea class="form-control" id="voice_output" readonly="true"></textarea>
+        <hr>
+        <button id="start" onclick="start()" class="btn btn-warning">START</button>
+
+        <h4><b>YOUR WEBCAM:</b></h4>
+        <div id="camera"></div>
+        <hr>
+        <h4><b>YOUR SELFIE:</b></h4>
+        <div id="image"></div>
+    </div>
+</center>
+</body>
+
+</html>
